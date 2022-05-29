@@ -1,5 +1,6 @@
 package com.techcentral.technewsjavaapi.controller;
 
+import com.techcentral.technewsjavaapi.model.Comment;
 import com.techcentral.technewsjavaapi.model.Post;
 import com.techcentral.technewsjavaapi.model.User;
 import com.techcentral.technewsjavaapi.model.Vote;
@@ -11,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
