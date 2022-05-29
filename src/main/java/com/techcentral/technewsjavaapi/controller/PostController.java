@@ -1,6 +1,7 @@
 package com.techcentral.technewsjavaapi.controller;
 
 import com.techcentral.technewsjavaapi.model.Post;
+import com.techcentral.technewsjavaapi.model.User;
 import com.techcentral.technewsjavaapi.model.Vote;
 import com.techcentral.technewsjavaapi.repository.PostRepository;
 import com.techcentral.technewsjavaapi.repository.UserRepository;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
+@SuppressWarnings("ALL")
 @RestController
 public class PostController {
     @Autowired

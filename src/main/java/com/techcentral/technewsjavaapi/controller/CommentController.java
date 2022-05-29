@@ -1,10 +1,14 @@
 package com.techcentral.technewsjavaapi.controller;
 
+import com.techcentral.technewsjavaapi.model.Comment;
 import com.techcentral.technewsjavaapi.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
+@SuppressWarnings("ALL")
 @RestController
 public class CommentController {
     @Autowired
